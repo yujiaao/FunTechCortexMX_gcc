@@ -12,7 +12,8 @@ dpkg -L $package_list 2>&1 > /dev/null
 if [ ! $? = 0 ]
 then
     echo "Install some depends (sudo may ask for your passwd)"
-    sudo aptitude install $package_list
+    #sudo aptitude install $package_list
+    sudo apt-get install $package_list
     did_it_work $? 
 fi
 

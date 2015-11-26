@@ -6,7 +6,8 @@ source include.sh
 ### GCC #########
 #################
 
-ver_gcc=gcc-4.6.2
+#ver_gcc=gcc-4.6.4
+ver_gcc=gcc-4.8.5
 arch_url=ftp://ftp.sunet.se/pub/gnu/gcc/releases/$ver_gcc/$ver_gcc.tar.bz2
 arch_dir=$ver_gcc
 arch_name=$ver_gcc.tar.bz2
